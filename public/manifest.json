@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "AfyaMed Pro",
+  "description": "AfyaMed Pro is a client system application for managing hospital data and information on patients and hospital niche",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "AfyaMed Pro Client"
+  },
+
+  "icons": {
+    "16": "./assets/img/favicon.ico",
+    "48": "./assets/img/favicon.ico",
+    "128": "./assets/img/favicon.ico"
+  },
+
+  "content_security_policy": "script-src 'self' ' '; object-src 'self",
+  "permissions": []
+}
